@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="icon" type="image/x-icon" href="/public/images/favicon.ico">
+    <!-- css link -->
+    <link rel="stylesheet" href="/public/css/style.css">
+    <!-- font awesome for search button -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body id="body" onload="loading()">
+    
+    <!-- loading animation -->
+    <div id="loading"></div>
+    <div id="loadingg"></div>
+    
+    <!-- top container -->
+    <center id="center">
+     
+        <div class="top">
+           
+            <div class="search">
+                <form class="form" onsubmit="submitLoginForm(event)">
+                    <input type="text" placeholder="City" name="cityname" required>
+                    <button type="submit" name="submit" id="sub"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+            <div class="temp">
+                <p class="datePara"><span id="day">Today </span>, <span id="month"> November </span> <span
+                        id="todayDate"> 18 </span></p>
+                <h2> <span id="eight">Overcast</span></h2>
+                <p class="cityPara"><span id="five">London</span>, <span id="seven">United Kingdom</span></p>
+                <h1 id="demo"><span id="six">13</span>&#8451</h1>
+            </div>
+        </div>
+        <!-- bottom container -->
+        <div class="bottom">
+            <table>
+                <tr>
+                    <th rowspan="2" class="nextDay" id="tommarow">Sunday</th>
+                    <td class="secondmiddlecolom ">10 AM</td>
+                    <td class="middlecolom unselectable"><img class="loading" src="/public/images/1.ico"></td>
+                    <td class="jill "><span id="one">4.3</span>&#8451</td>
+                </tr>
+                <tr>
+                    <td class="secondmiddlecolom ">10 PM</td>
+                    <td class="middlecolom unselectable"><img class="loading" src="/public/images/1.ico"></td>
+                    <td class="jill "><span id="two">2.6</span>&#8451</td>
+                </tr>
+                <tr>
+                    <th rowspan="2" class="secondDay" id="yesterday">Monday</th>
+                    <td class="secondmiddlecolom ">10 AM</td>
+                    <td class="middlecolom unselectable"><img class="loading" src="/public/images/1.ico"></td>
+                    <td class="jill "><span id="three">2.7</span>&#8451</td>
+                </tr>
+                <tr>
+                    <td class="secondmiddlecolom  ">10 PM</td>
+                    <td class="middlecolom unselectable"><img class="loading" src="/public/images/1.ico"></td>
+                    <td class="jill"><span id="four">2.4</span>&#8451</td>
+                </tr>
+            </table>
+        </div>
+    </center>
+
+    
+    <!-- javascript link -->
+    <script src="script.js"></script>
+    <script type='text/javascript' src='config.js'></script>
+</body>
+
+</html>

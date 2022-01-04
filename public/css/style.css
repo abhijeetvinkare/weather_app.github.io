@@ -1,0 +1,191 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&family=Rajdhani:wght@300&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    background: #e5e5e5;
+    
+}
+
+.top{
+    width:300px;
+    height: 380px;
+    background-image: url("/public/images/a.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    opacity: 0.7;
+    margin-top: 20px;   
+}
+.temp{
+    color: white;
+    margin-top: 37%;
+    text-align: center;
+    font-family: 'Manrope',sans-serif;
+    font-weight: 800;
+}
+h2{
+    font-size: 2rem;
+    margin-top: -1%;
+}
+.cityPara{
+    margin-top: -6%;
+}
+.datePara{
+    margin-top: -25%;
+}
+h1{
+    font-size: 5rem;
+    margin-top: -6%;
+}
+
+
+/* css for search area */
+
+
+.form{
+    margin: auto;
+    max-width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+  form.form input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    width: 50%;
+    background: #f1f1f1;
+    border-radius: 5px 0 0 5px;
+    border: none;
+    margin-top: 15%;
+  }
+
+  input:focus {
+      outline:none;
+}
+  
+  form.form button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #288CFB;
+    color: white;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+    margin-top: 15%;
+  }
+  
+  form.form button:hover {
+    background: #0b7dda;
+  }
+  
+
+  /* bottom  */
+
+.bottom{
+    background: #ffffff;
+    width: 300px;
+    height: 200px;
+    border-radius: 0  0 10px 10px;
+    font-family:'Manrope',sans-serif;
+    margin-bottom: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+table{
+    width: 100%;
+}
+td {
+    padding:6px;
+   
+}
+.nextDay{
+    padding-top: 15px;
+}
+.secondDay{
+    padding-top: 12px;
+}
+th{
+    vertical-align: top;
+   
+    
+}
+
+.jill{
+    text-align: right;
+    padding-right: 10px;
+}
+.middlecolom{
+    text-align: center;
+    padding-left: 15px;
+}
+.secondmiddlecolom{
+    text-align: center;
+}
+
+  /* icon rotate */
+
+  .loading{
+    -webkit-animation: rotation 5s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+    from {
+            -webkit-transform: rotate(0deg);
+    }
+    to {
+            -webkit-transform: rotate(359deg);
+    }
+}
+
+.loading{
+    width:30px;
+    height: 30px;
+}
+
+
+/* media query mobile */
+
+@media only screen and (max-width: 400px) {
+   .top{
+       margin-top: 15%;
+   }
+  }
+
+
+/* disable copy for icon */
+.unselectable {
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+
+  /* loading animation */
+
+  .loadingg{
+     position: fixed;
+      height: 100vh;
+      width: 100vw;
+      background: #e5e5e5ec url("/public/images/Spinsmall.svg") no-repeat center;
+      z-index: 1;
+      
+  }
+
+  
+  #loading{
+    position: fixed;
+     height: 100vh;
+     width: 100vw;
+     background: #e5e5e5ec url("/public/images/Spinsmall.svg") no-repeat center;
+     z-index: 1;
+     
+ }
+
+
+

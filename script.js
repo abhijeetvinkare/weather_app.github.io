@@ -40,12 +40,10 @@ function submitLoginForm(event) {
 
   const cityName = event.target['cityname'].value;
 
-  // api key 
-  var key = config.API_KEY_current;
 
   // API URL
   const current =
-    "https://api.weatherapi.com/v1/current.json?key="+key+"&q=" + cityName + "";
+    "https://api.weatherapi.com/v1/current.json?key=43a6478a73e54f1a8b4120309213112&q=" + cityName + "";
 
   // Calling the API 
   fetch(current)
@@ -80,7 +78,7 @@ function submitLoginForm(event) {
 
   // another API to get next two days forcast
   const base =
-    "https://api.weatherapi.com/v1/forecast.json?key="+key+"&q=" + cityName + "&days=7";
+    "https://api.weatherapi.com/v1/forecast.json?key=43a6478a73e54f1a8b4120309213112&q=" + cityName + "&days=7";
 
   // Calling the API
   fetch(base)
@@ -117,6 +115,6 @@ document.getElementById("sub").addEventListener("click", function() {
   document.getElementById("loadingg").classList.add("loadingg");
   setTimeout(function(){
     document.getElementById("loadingg").classList.remove("loadingg");
-  },300);
+  },500);
 })
 

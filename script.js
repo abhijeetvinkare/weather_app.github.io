@@ -115,6 +115,6 @@ document.getElementById("sub").addEventListener("click", function() {
   document.getElementById("loadingg").classList.add("loadingg");
   setTimeout(function(){
     document.getElementById("loadingg").classList.remove("loadingg");
-  },500);
+  },700);
 })
 

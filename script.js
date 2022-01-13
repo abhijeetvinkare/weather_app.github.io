@@ -18,7 +18,7 @@ var weekday = daysArray[weekdayNum];
 document.getElementById("day").textContent = weekday;
 
 // to get tommarow day name
-var daysArray = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+var daysArray = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday','Sunday'];
 var dateObj = new Date();
 var weekdayNum = dateObj.getDay();
 var weekday = daysArray[weekdayNum + 1];
@@ -26,7 +26,7 @@ document.getElementById("tommarow").textContent = weekday;
 
 
 // for yesterday day name
-var daysArray = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+var daysArray = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday','Sunday','Monday'];
 var dateObj = new Date();
 var weekdayNum = dateObj.getDay();
 var weekday = daysArray[weekdayNum + 2];

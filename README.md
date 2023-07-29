@@ -6,7 +6,6 @@ WeatherApp is a simple web application that allows users to check the current we
 
 1. Clone the repository to your local machine:
 
---- git clone https://github.com/abhijeetvinkare/weatherapp.github.io.git or download zip.
 
 2. Navigate to the project directory:
 
@@ -27,14 +26,6 @@ WeatherApp is a simple web application that allows users to check the current we
 - JavaScript: The interactivity and functionality of the application.
 - WeatherAPI: To retrieve weather data for the entered city.
 
-## 🤵 Credits
-
-WeatherApp was developed by [Your Name] and is based on the following technologies and APIs:
-
-- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
-- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
-- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-- [WeatherAPI](https://www.weatherapi.com/)
 
 ## 🏄‍♂️ Demo 
 

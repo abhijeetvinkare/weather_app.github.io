@@ -29,7 +29,7 @@ WeatherApp is a simple web application that allows users to check the current we
 
 ## 🏄‍♂️ Demo 
 
-https://github.com/abhijeetvinkare/weatherapp.github.io.git
+https://abhijeetvinkare.github.io/weatherapp.github.io/
 
 ## 👩‍🍳 Feedback
 
